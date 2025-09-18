@@ -1,0 +1,17 @@
+# Maven
+/target/
+
+# IDEs
+/.idea/
+/*.iml
+/.vscode/
+*.class
+
+# Sistema operativo
+.DS_Store
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
