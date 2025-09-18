@@ -2,10 +2,10 @@ name: CI - Build & Push Docker (Docker Hub)
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
     tags: [ "v*" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 env:
   REGISTRY: docker.io
